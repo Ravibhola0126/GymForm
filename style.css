@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Kanit:wght@100;400&family=Libre+Baskerville&family=Lumanosimo&family=Oswald&family=REM&family=Roboto+Slab:wght@300&family=Source+Code+Pro:wght@300;400&family=Varela+Round&display=swap');
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/black.jpg);
+    color: aliceblue;
+}
+
+.left {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    display: inline-block;
+    /* border: 2px solid white; */
+}
+
+.left img {
+
+    width: 91px;
+    filter: invert(100%);
+}
+
+.left div {
+    margin: 5px auto;
+    line-height: 19px;
+    font-size: 19px;
+    text-align: center;
+    color: rgba(250, 211, 93, 0.742);
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+
+}
+
+.right {
+    margin-top: 14px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.right .btn{
+    font-size: 15px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 30px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(104, 70, 216);
+}
+
+.btn {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: rgb(104, 63, 63);
+    padding: 4px 14px;
+    border: 2px solid yellow;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(26, 168, 92);
+}
+.container{
+    border: 2px solid white;
+    margin: 50px auto;
+    padding: 78px;
+    width: 35%;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+    
+}
+.form-group input{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 14px auto;
+    font-size: 18px;
+    border-radius: 9px;
+    background-color: rgba(190, 218, 141, 0.994);
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+.container h1{
+    font-weight: bold;
+    color: rgb(149, 233, 65);
+    margin-bottom: 70px;
+   text-align: center;
+   font-size: 24px;
+}
+.container button{
+    display: block;
+    width: 43%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.form-group{
+    font-size: 17px;
+}
